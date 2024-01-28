@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+header {
+    background-color: beige;
+    padding: 20px 0; /* сверху снизу 20px  по бокам 0*/
+    margin-bottom: 40px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+h1:hover {
+    color: blueviolet;
+}
+    .container {
+        width: 85%;
+        background-color: aqua;
+        margin: auto; /* центрирование блока*/
+        padding: 20px;
+    display: flex;
+    justify-content: center; /*выравнивание по горизонтали*/
+    flex-wrap: wrap; /* убираем поведение flex в одну строку*/
+}
+.item {
+    width: calc(50% - 20px); /* ширина */
+    height: 250px; /* высота */
+    background-color: rgba(255, 68, 0, 0.737); /* цвет фона */
+    margin: 10px; /*внешний отступ*/
+    box-shadow: 8px 7px 55px -1px blue;
+    transition: 1s;
+}
+.item:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+.item-1 {
+    background-image: url(природа1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-2 {
+    background-image: url(./природа2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-3 {
+    background-image: url(./Природа3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-4 {
+    background-image: url(./природа4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-5 {
+    background-image: url(./природа5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-6 {
+    background-image: url(./природа6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-7 {
+    background-image: url(./природа7.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-8 {
+    background-image: url(./природа8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+/*
+
+*
+*/
